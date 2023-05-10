@@ -8,6 +8,7 @@ input.onButtonPressed(Button.A, function () {
 input.onButtonPressed(Button.AB, function () {
     if (!(dormir)) {
         basic.showNumber(Math.idiv(time, 1000))
+        music.stopAllSounds()
     }
 })
 input.onButtonPressed(Button.B, function () {
